@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.virsus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    background-color: rgba(192, 152, 7, 0.609);   
+    padding: 0.5em;
+    height: 100px;
+    width: 100%;
+}
+
+.meniu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* height: 80px; */
+    background-color: rgb(173, 171, 171);
+    border: 5px black;
+    align-items: center;
+    /* gap: 10px; */
+    padding: 10px;
+    
+}
+
+.mygtukas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 47px; */
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black ;
+    /* flex-grow: 2; */
+   
+}
+
+.pakeistas-mygtukas.mygtukas-apatinis {
+    background-color: rgb(11, 179, 11);
+}
+
+.mygtukas:hover {
+    background-color: rgb(220, 219, 198);
+}
+
+.mygtukas-apatinis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(189, 184, 184);
+    border: 2px solid black ;
+}
+
+.mygtukas-apatinis:hover {
+    background-color: rgb(226, 216, 160);
+}
+
+.mygtuko-nuoroda {
+    display: block;
+    width: 100%;
+    /* line-height: 47px; */
+    text-decoration: none;
+    text-align: center;
+    font-size: auto;
+    color: rgba(137, 107, 0, 0.609);
+}
+
+.mygtuko-apatinio-nuoroda {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    display: block;
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+}
+
+.pav-ir-teksto-wraperis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(100, 100, 97);
+    padding: 20px;
+}
+
+.picture-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    padding: 15px;
+}
+
+.picture {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    object-fit: contain; 
+    
+}
+
+.text-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    flex-grow: 2;
+}
+
+p:hover {
+    font-size: 20px;
+}
+
+.footeris {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color:rgba(192, 152, 7, 0.609);
+}
